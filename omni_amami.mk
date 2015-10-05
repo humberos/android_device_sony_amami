@@ -42,6 +42,12 @@ PRODUCT_COPY_FILES += \
     device/sony/amami/recovery/root/etc/bootrec-device:recovery/root/etc/bootrec-device \
     device/sony/amami/rootdir/twrp.fstab:recovery/root/etc/twrp.fstab
 
+# Camera properties
+PRODUCT_PROPERTY_OVERRIDES += \
+    camera.disable_zsl_mode=1 \
+    ro.qc.sdk.gestures.camera=false \
+    ro.qc.sdk.camera.facialproc=false
+
 # Override Product Name for OmniROM
 PRODUCT_NAME := omni_amami
 PRODUCT_MODEL := Xperia Z1 Compact
