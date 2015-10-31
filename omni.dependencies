@@ -1,0 +1,74 @@
+[
+  {
+    "remote":       "erikcas",
+    "repository":   "android_device_sony_rhine-common",
+    "target_path":  "device/sony/rhine-common",
+    "revision":     "6.0-3.4"
+  },
+  {
+    "remote":       "erikcas",
+    "repository":   "android_kernel_sony_msm",
+    "target_path":  "kernel/sony/msm",
+    "revision":     "amami-3.4-6.0"
+  },
+  {
+    "remote":       "omnirom",
+    "repository":   "android_hardware_sony_thermanager",
+    "target_path":  "hardware/sony/thermanager",
+    "revision":     "android-6.0"
+  },
+  {
+    "remote":       "omnirom",
+    "repository":   "android_hardware_sony_timekeep",
+    "target_path":  "hardware/sony/timekeep",
+    "revision":     "android-6.0"
+  },
+  {
+    "remote":       "omnirom",
+    "repository":   "android_hardware_sony_macaddrsetup",
+    "target_path":  "hardware/sony/macaddrsetup",
+    "revision":     "android-6.0"
+  },
+  {
+    "remote":       "omnirom",
+    "repository":   "android_hardware_sony_boringssl-compat",
+    "target_path":  "hardware/sony/boringssl-compat",
+    "revision":     "android-6.0"
+  },
+  {
+    "remote":       "omnirom",
+    "repository":   "android_device_qcom_aosp-sepolicy",
+    "target_path":  "device/qcom/aosp-sepolicy",
+    "revision":     "android-6.0"
+  },
+  {
+    "remote": "github",
+    "repository": "maxwen/android_hardware_qcom_display-caf-msm8974",
+    "target_path": "hardware/qcom/display-caf-msm8974",
+    "revision": "android-6.0"
+  },
+  {
+    "remote": "github",
+    "repository": "maxwen/android_hardware_qcom_media-caf-msm8974",
+    "target_path": "hardware/qcom/media-caf-msm8974",
+    "revision": "android-6.0"
+  },
+  {
+    "remote": "omnirom",
+    "repository": "android_frameworks_av",
+    "target_path": "frameworks/av-caf",
+    "revision": "android-6.0-caf"
+  },
+  {
+    "remote": "omnirom",
+    "repository": "android_frameworks_native",
+    "target_path": "frameworks/native-caf",
+    "revision": "android-6.0-caf"
+  },
+  {
+    "remote": "omnirom",
+    "repository": "android_external_stlport",
+    "target_path": "external/stlport",
+    "revision": "android-6.0"
+  }
+]
