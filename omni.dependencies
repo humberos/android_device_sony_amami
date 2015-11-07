@@ -66,14 +66,20 @@
     "revision": "android-6.0-caf"
   },
   {
+    "remote": "erikcas",
+    "repository": "android_hardware_qcom_gps",
+    "target_path": "hardware/qcom/gps",
+    "revision": "android-6.0-test"
+  },
+  {
     "remote": "omnirom",
     "repository": "android_external_stlport",
     "target_path": "external/stlport",
     "revision": "android-6.0"
   },
   {
-    "remote": "github",
-    "repository": "maxwen/vendor_qcom_opensource_display-frameworks",
+    "remote": "erikcas",
+    "repository": "vendor_qcom_opensource_display-frameworks",
     "target_path": "vendor/qcom/opensource/display-frameworks",
     "revision": "android-6.0"
   }
