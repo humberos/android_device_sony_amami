@@ -21,6 +21,7 @@ TARGET_OTA_ASSERT_DEVICE := D5503,amami
 # TWRP Recovery
 DEVICE_RESOLUTION := 720x1280
 BOARD_USE_CUSTOM_RECOVERY_FONT := \"roboto_15x24.h\"
+TW_MAX_BRIGHTNESS := 4095
 
 # Inherit AOSP Rhine common device parts
 $(call inherit-product, device/sony/amami/aosp_d5503.mk)
