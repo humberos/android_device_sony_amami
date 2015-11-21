@@ -3,13 +3,13 @@
     "remote":       "erikcas",
     "repository":   "android_device_sony_rhine-common",
     "target_path":  "device/sony/rhine-common",
-    "revision":     "android-6.0-cas"
+    "revision":     "android-6.0-fun"
   },
   {
     "remote":       "erikcas",
     "repository":   "android_kernel_sony_msm",
     "target_path":  "kernel/sony/msm",
-    "revision":     "cas-6.0"
+    "revision":     "cas-6.0-1.1"
   },
   {
     "remote":       "omnirom",
